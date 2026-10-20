@@ -14,7 +14,7 @@ npm test
 
 For static hosting, run `npm run prepare-media` and publish the `dist/` directory. Hash routes work without server rewrites. `npm start` downloads the attributed Google Help animation if it is absent; no Google Ads account is needed. The GitHub source includes the downloader rather than duplicating the third-party binary. The hosted package and source ZIP include the fetched animation.
 
-## Included in v0.2
+## Included in v0.4
 
 - 42 introductory bilingual lessons across 14 chapters, with checks and activities.
 - Three fictional business contexts: local AC repair, ecommerce shoes and B2B accounting.
@@ -25,12 +25,17 @@ For static hosting, run `npm run prepare-media` and publish the `dist/` director
 - Forecast, contribution, break-even, metrics and budget calculators with zero/invalid input handling.
 - Browser-local progress, JSON backups and restore, glossary and official source library.
 - Official Google animation and click-to-load YouTube tutorials. Illustrations are clearly labelled.
+- Three implementation workbooks with 23 self-verified steps: campaign setup, manual GTM measurement and weekly optimization. These guide implementation but do not control or verify a live account.
+- Expanded campaign plans for location options, language, network choice, schedules, audience mode, tracking status and AI controls, plus context-sensitive plan review.
+- Campaign/ad autosave, per-business launch checklists and migration of older progress backups. Clearing a field stays cleared when navigating back.
+- Three complete fictional campaign cases connect a business brief, CRM/measurement evidence, calculation checks, strategy decisions, an assumption model and an exportable action plan. All case data is labelled fictional.
+- Seven source-linked official videos, including conversion measurement, website tracking and tag ID tutorials; relevant lessons include video links.
 
 ## Content status
 
 Primary platform sources reviewed on 20 October 2026. Examples and sample business numbers are fictional teaching examples, not market benchmarks. Platform features, labels and account availability vary; always verify the linked documentation and your actual account.
 
-This is a working first edition, not a finished professional course. Remaining: workflow-by-workflow current demo-account screenshots, Roman Urdu recordings/captions, permission-based real case studies, deeper tracking implementation and advanced exercises, expert review and beginner usability testing. Other campaign modules are future work. The app shows this status in its coverage library.
+This is a working first edition, not a finished professional course. Remaining: workflow-by-workflow current demo-account screenshots, Roman Urdu recordings/captions, permission-based real case studies, live account verification and deeper consent/advanced experiment exercises, expert review and beginner usability testing. Other campaign modules are future work. The app shows this status in its coverage library.
 
 All campaign actions are simulated. The app has no Google Ads API connection and cannot create spending, verify live tracking, grant Google certification or guarantee results. Quiz completion is not proof of professional mastery.
 
