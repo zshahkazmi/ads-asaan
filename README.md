@@ -14,7 +14,7 @@ npm test
 
 For static hosting, run `npm run prepare-media` and publish the `dist/` directory. Hash routes work without server rewrites. `npm start` downloads the attributed Google Help animation if it is absent; no Google Ads account is needed. The GitHub source includes the downloader rather than duplicating the third-party binary. The hosted package and source ZIP include the fetched animation.
 
-## Included in v0.4
+## Included through v0.6
 
 - 42 introductory bilingual lessons across 14 chapters, with checks and activities.
 - Three fictional business contexts: local AC repair, ecommerce shoes and B2B accounting.
@@ -54,3 +54,9 @@ Buildless HTML/CSS/JavaScript; no framework or runtime dependencies. `dist/conte
 ## Original interface captures (v0.5)
 
 `dist/assets/google-ads/*.png`: five original Google Ads UI crops captured on 20 October 2026, © Google. Account-identifying headers and private details were excluded at capture time. No UI pixels were reconstructed. The overlays are separate interactive HTML annotations. The initial objective/type chooser was canceled without creating or launching a campaign. These limited account views do not cover the full workflow. `dist/screens.js` records paths, bilingual annotations and capture provenance; screenshots are educational and account layouts may vary.
+
+## Guided Search setup (v0.6)
+
+`#journey` connects 14 planning steps from outcome/measurement to a first review. Three fictional business contexts provide specific examples, decision checks, editable autosaved outputs, a break-even calculation and exportable plan. Progress and outputs are per business and included in existing schema-1 progress backups. This is a teaching interface, not a Google UI replica, original screenshot for every step, live account verification or launch authorization. The existing five original crops are linked only where relevant; missing full workflow captures and Roman Urdu recordings remain listed. Dedicated RSA documentation is used for current RSA limits rather than older text-ad instructions in the generic creation guide.
+
+Current bidding notes explicitly distinguish the June 2026 label transition (Google Help 10353027) from the 17 August 2026 target-based bidding change (Google Help 17061251). Both were checked on 20 October 2026. Targets are not represented as per-conversion hard caps or guaranteed results.
