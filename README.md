@@ -35,7 +35,7 @@ For static hosting, run `npm run prepare-media` and publish the `dist/` director
 
 Primary platform sources reviewed on 20 October 2026. Examples and sample business numbers are fictional teaching examples, not market benchmarks. Platform features, labels and account availability vary; always verify the linked documentation and your actual account.
 
-This is a working first edition, not a finished professional course. Remaining: workflow-by-workflow current demo-account screenshots, Roman Urdu recordings/captions, permission-based real case studies, live account verification and deeper consent/advanced experiment exercises, expert review and beginner usability testing. Other campaign modules are future work. The app shows this status in its coverage library.
+This is a working first edition, not a finished professional course. Five original interface crops with bilingual clickable explanations are available at #screens. Remaining: complete workflow-by-workflow current account screenshots, Roman Urdu recordings/captions, permission-based real case studies, live account verification and deeper consent/advanced experiment exercises, expert review and beginner usability testing. Other campaign modules are future work. The app shows this status in its coverage library.
 
 All campaign actions are simulated. The app has no Google Ads API connection and cannot create spending, verify live tracking, grant Google certification or guarantee results. Quiz completion is not proof of professional mastery.
 
@@ -50,3 +50,7 @@ Progress and fictional drafts are saved in this browser's localStorage. They do 
 ## Technical approach
 
 Buildless HTML/CSS/JavaScript; no framework or runtime dependencies. `dist/content.js` contains bilingual content, business examples, glossary and source mapping. `dist/app.js` contains navigation, exercises and calculators. `check.cjs` performs route, content and calculation regression checks; browser testing is still required for user interactions and layout.
+
+## Original interface captures (v0.5)
+
+`dist/assets/google-ads/*.png`: five original Google Ads UI crops captured on 20 October 2026, © Google. Account-identifying headers and private details were excluded at capture time. No UI pixels were reconstructed. The overlays are separate interactive HTML annotations. The initial objective/type chooser was canceled without creating or launching a campaign. These limited account views do not cover the full workflow. `dist/screens.js` records paths, bilingual annotations and capture provenance; screenshots are educational and account layouts may vary.
