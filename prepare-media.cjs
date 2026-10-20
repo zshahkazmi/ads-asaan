@@ -1,0 +1,3 @@
+// Fetch the attributed Google Help animation when cloning the GitHub text source.
+const fs=require('fs');
+(async()=>{const file='dist/assets/ai-max-official.gif';if(fs.existsSync(file))return;const url='https://lh3.googleusercontent.com/Kyk357zxGei43bAJaTNJ0L6rzG6Gn3b8P9q8i80VyZLGUzSfPNQAJhFkp46sHsR4wxw=w895';const response=await fetch(url,{signal:AbortSignal.timeout(30000)});if(!response.ok)throw Error('Google media request failed: '+response.status);fs.mkdirSync('dist/assets',{recursive:true});fs.writeFileSync(file,Buffer.from(await response.arrayBuffer()));console.log('Attributed Google Help animation downloaded.');})().catch(error=>{console.error(error.message);process.exitCode=1;});
