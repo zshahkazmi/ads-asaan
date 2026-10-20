@@ -14,7 +14,7 @@ npm test
 
 For static hosting, run `npm run prepare-media` and publish the `dist/` directory. Hash routes work without server rewrites. `npm start` downloads the attributed Google Help animation if it is absent; no Google Ads account is needed. The GitHub source includes the downloader rather than duplicating the third-party binary. The hosted package and source ZIP include the fetched animation.
 
-## Included through v0.6
+## Included through v0.7
 
 - 42 introductory bilingual lessons across 14 chapters, with checks and activities.
 - Three fictional business contexts: local AC repair, ecommerce shoes and B2B accounting.
@@ -60,3 +60,9 @@ Buildless HTML/CSS/JavaScript; no framework or runtime dependencies. `dist/conte
 `#journey` connects 14 planning steps from outcome/measurement to a first review. Three fictional business contexts provide specific examples, decision checks, editable autosaved outputs, a break-even calculation and exportable plan. Progress and outputs are per business and included in existing schema-1 progress backups. This is a teaching interface, not a Google UI replica, original screenshot for every step, live account verification or launch authorization. The existing five original crops are linked only where relevant; missing full workflow captures and Roman Urdu recordings remain listed. Dedicated RSA documentation is used for current RSA limits rather than older text-ad instructions in the generic creation guide.
 
 Current bidding notes explicitly distinguish the June 2026 label transition (Google Help 10353027) from the 17 August 2026 target-based bidding change (Google Help 17061251). Both were checked on 20 October 2026. Targets are not represented as per-conversion hard caps or guaranteed results.
+
+## Measurement and troubleshooting clinic (v0.7)
+
+`#clinic` provides three fictional event traces (form, purchase, calls) and eight evidence-led fault cases. Learners change event rules, repeat protection, duplicate action sources and purchase-value mapping, then compare emitted events with a known fixture. The call fixture deliberately distinguishes a matching total from correct event semantics. Transaction repeat suppression is per action; form/call repeat protection is a simplified app-side guard. This is not Google attribution/counting/consent emulation. Phone measurement eligibility must be verified by country/account.
+
+Fault cases cover zero serving, disapproval, broken forms, lead quality, duplicate conversions, attribution/debug differences, incorrect values and conversion delay. Recovery notes autosave, export and survive schema-1 backups. Original screenshots and live tag verification are not claimed for these exercises. Current Google Help references were reviewed on 20 October 2026. Roman Urdu recordings, full original workflow captures, permission-based real cases and expert/beginner review remain incomplete.
