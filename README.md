@@ -14,11 +14,14 @@ npm test
 
 For static hosting, run `npm run prepare-media` and publish the `dist/` directory. Hash routes work without server rewrites. `npm start` downloads the attributed Google Help animation if it is absent; no Google Ads account is needed. The GitHub source includes the downloader rather than duplicating the third-party binary. The hosted package and source ZIP include the fetched animation.
 
-## Included in v0.1
+## Included in v0.2
 
 - 42 introductory bilingual lessons across 14 chapters, with checks and activities.
 - Three fictional business contexts: local AC repair, ecommerce shoes and B2B accounting.
 - Search-term decisions, ad builder, campaign plan/export and diagnosis labs.
+- Guided campaign, tracking and optimization missions with 15 decisions per business; progress is saved separately for each business.
+- A labelled tracking playground for invalid submissions, success-only triggers, repeated events and simplified deduplication. It runs no live Google tags and sends no customer data.
+- Twelve calculation drills with hints, numeric answer checking and worked solutions; three business contexts yield 36 saved drill completions.
 - Forecast, contribution, break-even, metrics and budget calculators with zero/invalid input handling.
 - Browser-local progress, JSON backups and restore, glossary and official source library.
 - Official Google animation and click-to-load YouTube tutorials. Illustrations are clearly labelled.
