@@ -14,7 +14,7 @@ npm test
 
 For static hosting, run `npm run prepare-media` and publish the `dist/` directory. Hash routes work without server rewrites. `npm start` downloads the attributed Google Help animation if it is absent; no Google Ads account is needed. The GitHub source includes the downloader rather than duplicating the third-party binary. The hosted package and source ZIP include the fetched animation.
 
-## Included through v0.7
+## Included through v0.8
 
 - 42 introductory bilingual lessons across 14 chapters, with checks and activities.
 - Three fictional business contexts: local AC repair, ecommerce shoes and B2B accounting.
@@ -66,3 +66,9 @@ Current bidding notes explicitly distinguish the June 2026 label transition (Goo
 `#clinic` provides three fictional event traces (form, purchase, calls) and eight evidence-led fault cases. Learners change event rules, repeat protection, duplicate action sources and purchase-value mapping, then compare emitted events with a known fixture. The call fixture deliberately distinguishes a matching total from correct event semantics. Transaction repeat suppression is per action; form/call repeat protection is a simplified app-side guard. This is not Google attribution/counting/consent emulation. Phone measurement eligibility must be verified by country/account.
 
 Fault cases cover zero serving, disapproval, broken forms, lead quality, duplicate conversions, attribution/debug differences, incorrect values and conversion delay. Recovery notes autosave, export and survive schema-1 backups. Original screenshots and live tag verification are not claimed for these exercises. Current Google Help references were reviewed on 20 October 2026. Roman Urdu recordings, full original workflow captures, permission-based real cases and expert/beginner review remain incomplete.
+
+## Optimization and scaling (v0.8)
+
+`#optimize` adds six decision exercises (lag, lead quality, blended averages, small samples, test isolation and marginal economics), a capacity-aware added-spend model and an editable experiment plan. Business-specific decisions, assumptions and plans autosave and survive backups. The model compares the existing fictional case contribution with added contribution; a profitable total can still include an unprofitable budget increase. Fractional customers represent expected values. The model excludes auction/demand feedback, fixed overhead, taxes, refunds, repeat value and causal incrementality.
+
+The experiment checklist covers hypothesis, change, primary metric/baseline, guardrail, evidence, lag/readout timing, split, owner and rollback. It does not calculate sample size or certify significance, causal impact or readiness for a live experiment. It creates no live experiment and changes no real budget.
