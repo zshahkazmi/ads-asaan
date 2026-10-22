@@ -14,7 +14,7 @@ npm test
 
 For static hosting, run `npm run prepare-media` and publish the `dist/` directory. Hash routes work without server rewrites. `npm start` downloads the attributed Google Help animation if it is absent; no Google Ads account is needed. The GitHub source includes the downloader rather than duplicating the third-party binary. The hosted package and source ZIP include the fetched animation.
 
-## Included through v0.10
+## Included through v0.11
 
 - 42 introductory bilingual lessons across 14 chapters, with checks and activities.
 - Three fictional business contexts: local AC repair, ecommerce shoes and B2B accounting.
@@ -82,3 +82,7 @@ The keyword workshop adds a research worksheet, syntax/match-type explanation, a
 ## Landing page lab (v0.10)
 
 `#destination` connects intent, ad promise, destination and verified outcomes. Six fictional fault decisions per business, an eight-point manual audit with evidence/status, per-business message/fix notes and a constant-spend/CPC CVR assumption calculator are included. Blank passes are flagged as unsupported; urgent self-reported access/action/measurement faults are prioritised. Audit state autosaves, exports and survives schema-1 backup/restore. No URLs are scanned and no Google approval, Quality Score, legal compliance, live tracking or causal uplift is certified. Platform references reviewed 22 October 2026: Google Ads Help 6238826 and Ads Policy 6368661. Complete original workflow captures, Roman Urdu recordings and real permission-based cases remain pending.
+
+## Consent practice (v0.11)
+
+`#consent`, linked from Tracking & diagnosis, adds a fictional basic/advanced sequence, early/late defaults, Accept/Reject/no-choice and connected/missing updates. All four demo consent flags change together; partial choices and withdrawal are decision cases rather than simulated production behavior. Six evidence-led decisions and an exportable verification record autosave globally in clinic state and schema-1 backups. This is not a CMP, real network/storage emulator, legal audit or Google compliance/attribution certificate. No Google tags or consent-mode requests run. Current primary references: Google Tag Platform consent overview, website setup and Tag Assistant debugging, reviewed 22 October 2026. Actual region/company requirements, tag support, saved choices, withdrawal and non-Google gating need independent implementation verification.
