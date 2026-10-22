@@ -14,7 +14,7 @@ npm test
 
 For static hosting, run `npm run prepare-media` and publish the `dist/` directory. Hash routes work without server rewrites. `npm start` downloads the attributed Google Help animation if it is absent; no Google Ads account is needed. The GitHub source includes the downloader rather than duplicating the third-party binary. The hosted package and source ZIP include the fetched animation.
 
-## Included through v0.8
+## Included through v0.9
 
 - 42 introductory bilingual lessons across 14 chapters, with checks and activities.
 - Three fictional business contexts: local AC repair, ecommerce shoes and B2B accounting.
@@ -72,3 +72,9 @@ Fault cases cover zero serving, disapproval, broken forms, lead quality, duplica
 `#optimize` adds six decision exercises (lag, lead quality, blended averages, small samples, test isolation and marginal economics), a capacity-aware added-spend model and an editable experiment plan. Business-specific decisions, assumptions and plans autosave and survive backups. The model compares the existing fictional case contribution with added contribution; a profitable total can still include an unprofitable budget increase. Fractional customers represent expected values. The model excludes auction/demand feedback, fixed overhead, taxes, refunds, repeat value and causal incrementality.
 
 The experiment checklist covers hypothesis, change, primary metric/baseline, guardrail, evidence, lag/readout timing, split, owner and rollback. It does not calculate sample size or certify significance, causal impact or readiness for a live experiment. It creates no live experiment and changes no real budget.
+
+## RSA and keyword studio (v0.9)
+
+`#studio` provides 15 headline fields, four descriptions, two display paths, final URL, live length checks, position pins and deterministic sample combinations. Optional H3/D2 can be hidden. Samples are illustrative and do not predict Google serving, eligibility, Ad Strength or approval. The advanced draft copies the old three-headline/two-description draft only when first created; it then saves independently. Character counts cover English/Roman Urdu with a CJK double-width approximation; verify other scripts/emoji in the actual Google editor.
+
+The keyword workshop adds a research worksheet, syntax/match-type explanation, a five-query negative/scope fixture and eight intent decisions per business. Literal negative broad/phrase/exact logic deliberately excludes close-variant expansion. Tokenization and fixture scope are simplified; it does not emulate Google semantic matching or certify the whole account. Volumes and live Planner data are not fetched. Drafts, pins, research and decisions autosave per business and are included in schema-1 backups and export files. All query metrics are fictional.
