@@ -14,7 +14,7 @@ npm test
 
 For static hosting, run `npm run prepare-media` and publish the `dist/` directory. Hash routes work without server rewrites. `npm start` downloads the attributed Google Help animation if it is absent; no Google Ads account is needed. The GitHub source includes the downloader rather than duplicating the third-party binary. The hosted package and source ZIP include the fetched animation.
 
-## Included through v0.9
+## Included through v0.10
 
 - 42 introductory bilingual lessons across 14 chapters, with checks and activities.
 - Three fictional business contexts: local AC repair, ecommerce shoes and B2B accounting.
@@ -78,3 +78,7 @@ The experiment checklist covers hypothesis, change, primary metric/baseline, gua
 `#studio` provides 15 headline fields, four descriptions, two display paths, final URL, live length checks, position pins and deterministic sample combinations. Optional H3/D2 can be hidden. Samples are illustrative and do not predict Google serving, eligibility, Ad Strength or approval. The advanced draft copies the old three-headline/two-description draft only when first created; it then saves independently. Character counts cover English/Roman Urdu with a CJK double-width approximation; verify other scripts/emoji in the actual Google editor.
 
 The keyword workshop adds a research worksheet, syntax/match-type explanation, a five-query negative/scope fixture and eight intent decisions per business. Literal negative broad/phrase/exact logic deliberately excludes close-variant expansion. Tokenization and fixture scope are simplified; it does not emulate Google semantic matching or certify the whole account. Volumes and live Planner data are not fetched. Drafts, pins, research and decisions autosave per business and are included in schema-1 backups and export files. All query metrics are fictional.
+
+## Landing page lab (v0.10)
+
+`#destination` connects intent, ad promise, destination and verified outcomes. Six fictional fault decisions per business, an eight-point manual audit with evidence/status, per-business message/fix notes and a constant-spend/CPC CVR assumption calculator are included. Blank passes are flagged as unsupported; urgent self-reported access/action/measurement faults are prioritised. Audit state autosaves, exports and survives schema-1 backup/restore. No URLs are scanned and no Google approval, Quality Score, legal compliance, live tracking or causal uplift is certified. Platform references reviewed 22 October 2026: Google Ads Help 6238826 and Ads Policy 6368661. Complete original workflow captures, Roman Urdu recordings and real permission-based cases remain pending.
