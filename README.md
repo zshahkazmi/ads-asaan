@@ -14,7 +14,7 @@ npm test
 
 For static hosting, run `npm run prepare-media` and publish the `dist/` directory. Hash routes work without server rewrites. `npm start` downloads the attributed Google Help animation if it is absent; no Google Ads account is needed. The GitHub source includes the downloader rather than duplicating the third-party binary. The hosted package and source ZIP include the fetched animation.
 
-## Included through v0.11
+## Included through v0.12
 
 - 42 introductory bilingual lessons across 14 chapters, with checks and activities.
 - Three fictional business contexts: local AC repair, ecommerce shoes and B2B accounting.
@@ -35,7 +35,7 @@ For static hosting, run `npm run prepare-media` and publish the `dist/` director
 
 Primary platform sources reviewed on 20 October 2026. Examples and sample business numbers are fictional teaching examples, not market benchmarks. Platform features, labels and account availability vary; always verify the linked documentation and your actual account.
 
-This is a working first edition, not a finished professional course. Five original interface crops with bilingual clickable explanations are available at #screens. Remaining: complete workflow-by-workflow current account screenshots, Roman Urdu recordings/captions, permission-based real case studies, live account verification and deeper consent/advanced experiment exercises, expert review and beginner usability testing. Other campaign modules are future work. The app shows this status in its coverage library.
+This is a working first edition, not a finished professional course. Nine original interface crops with bilingual clickable explanations are available at #screens. Remaining: complete workflow-by-workflow current account screenshots, Roman Urdu recordings/captions, permission-based real case studies, live account verification and deeper consent/advanced experiment exercises, expert review and beginner usability testing. Other campaign modules are future work. The app shows this status in its coverage library.
 
 All campaign actions are simulated. The app has no Google Ads API connection and cannot create spending, verify live tracking, grant Google certification or guarantee results. Quiz completion is not proof of professional mastery.
 
@@ -86,3 +86,7 @@ The keyword workshop adds a research worksheet, syntax/match-type explanation, a
 ## Consent practice (v0.11)
 
 `#consent`, linked from Tracking & diagnosis, adds a fictional basic/advanced sequence, early/late defaults, Accept/Reject/no-choice and connected/missing updates. All four demo consent flags change together; partial choices and withdrawal are decision cases rather than simulated production behavior. Six evidence-led decisions and an exportable verification record autosave globally in clinic state and schema-1 backups. This is not a CMP, real network/storage emulator, legal audit or Google compliance/attribution certificate. No Google tags or consent-mode requests run. Current primary references: Google Tag Platform consent overview, website setup and Tag Assistant debugging, reviewed 22 October 2026. Actual region/company requirements, tag support, saved choices, withdrawal and non-Google gating need independent implementation verification.
+
+## Original interface expansion (v0.12)
+
+Four additional original Google Ads crops were captured on 22 October 2026: Keyword Planner entry, blank discovery inputs, conversion Diagnostics entry/education and date-range selector. Total: nine captures. Captures exclude account headers, identities, private plan lists, measurement results and billing. No pixels were reconstructed. No Planner query was submitted, no plan was saved and no date choice applied; account/campaign/measurement settings were not changed. These crops show entry/control screens, not full Planner results, Search setup, live tracking verification or action-specific diagnostics. Capture dates are per image; deep links `#screens/5` through `#screens/8` open the new views with bilingual annotations and relevant practice links.
